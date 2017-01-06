@@ -1,0 +1,18 @@
+version: '2'
+services:
+  django1:
+    image: py35
+    ports:
+       - "8001:8000"
+  django2:
+    image: py35
+    ports:
+       - "8002:8000"
+  django3:
+    image: py35
+    ports:
+       - "8003:8000"
+  django4:
+    image: py35
+    ports:
+       - "8004:8000"
